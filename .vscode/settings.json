@@ -11,14 +11,6 @@
       "source.organizeImports": true,
     },
   
-    // PyLint
-    "pylint.args": [
-      "--ignore=tests",
-      "--disable=C0114",
-      "--disable=C0115",
-      "--disable=C0116"
-    ],
-  
     // Others  
     "files.associations": {
       "**/templates/*.html": "django-html",
@@ -26,6 +18,4 @@
       "**/requirements{/**,*}.{txt,in}": "pip-requirements",
       "*.html": "html"
     },
-    "djangointellisense.projectRoot": "${workspaceFolder}",
-    "djangointellisense.settingsModule": "${workspaceFolder}/escola/settings.py" // update if necessary
   }

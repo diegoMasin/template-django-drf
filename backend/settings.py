@@ -34,7 +34,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # third party apps
-    'django-extensions',
+    'django_extensions',
+    # here
     # my apps
     'backend.core'
 
