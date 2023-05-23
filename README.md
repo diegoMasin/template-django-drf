@@ -3,7 +3,7 @@
 
 # Django + Django Rest Framework (Template)
 
-###### Training Django Rest Framework with best practices.
+###### Preparing a template for Django Rest Framework.
 
 ## Requirements
 
@@ -20,13 +20,7 @@
 - change the requirements.txt file if you don't want to get the latest versions
 - pip install -r requirements.txt
 - change file putting installed versions to fix versions.
-- change the 'backend' name to the name of your project throughout the project (if you wish)
-    - não altere no settings.py onde tem 'BACKEND' e 'backends'
-    - do not change anything in the .env, env_gen.py and README.md files
-- do the same for the 'core' name if you want your first app to have another name (if you wish)
-    - change only the files: asgi.py, settings.py, wsgi.py and apps.py files
 - python contrib/env_gen.py
-- rm -rf contrib
 - python manage.py migrate
 - python manage.py createsuperuser --username="admin" --email=""
 ```
